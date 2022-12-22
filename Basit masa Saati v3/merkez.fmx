@@ -1,0 +1,182 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 360
+  ClientWidth = 637
+  Fill.Color = claBlack
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  FullScreen = True
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Align = Contents
+    Fill.Color = claBlack
+    Size.Width = 637.000000000000000000
+    Size.Height = 360.000000000000000000
+    Size.PlatformDefault = False
+    OnDblClick = Text1DblClick
+  end
+  object Text1: TText
+    Align = Scale
+    Position.X = 63.700000762939450000
+    Size.Width = 239.870315551757800000
+    Size.Height = 257.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Century Gothic'
+    TextSettings.Font.Size = 210.000000000000000000
+    TextSettings.FontColor = claWhite
+    TextSettings.Trimming = Character
+    TextSettings.HorzAlign = Trailing
+    OnDblClick = Text1DblClick
+  end
+  object Text3: TText
+    Align = Scale
+    Position.X = 334.425018310546900000
+    Size.Width = 239.870330810546900000
+    Size.Height = 257.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Century Gothic'
+    TextSettings.Font.Size = 210.000000000000000000
+    TextSettings.FontColor = claWhite
+    TextSettings.Trimming = Character
+    TextSettings.HorzAlign = Leading
+    OnDblClick = Text1DblClick
+  end
+  object Line2: TLine
+    Align = Scale
+    LineType = Diagonal
+    Position.X = 317.504699707031300000
+    Position.Y = 182.000000000000000000
+    RotationAngle = 225.000000000000000000
+    RotationCenter.X = 0.000000000000000000
+    RotationCenter.Y = 0.000000000000000000
+    Size.Width = 99.531250000000000000
+    Size.Height = 100.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claDodgerblue
+    Stroke.Thickness = 7.000000000000000000
+    Stroke.Cap = Round
+    Stroke.Join = Round
+    object FloatAnimation2: TFloatAnimation
+      Duration = 0.750000000000000000
+      OnFinish = FloatAnimation1Finish
+      PropertyName = 'RotationAngle'
+      StartValue = 0.000000000000000000
+      StartFromCurrent = True
+      StopValue = 0.000000000000000000
+    end
+  end
+  object Text5: TText
+    Align = Scale
+    Position.X = 63.700000762939450000
+    Position.Y = 256.000000000000000000
+    Size.Width = 510.595275878906300000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Century Gothic'
+    TextSettings.Font.Size = 44.000000000000000000
+    TextSettings.FontColor = claWhite
+    TextSettings.Trimming = Character
+  end
+  object Text7: TText
+    Align = Scale
+    Position.X = 135.362503051757800000
+    Position.Y = 304.000000000000000000
+    Size.Width = 367.270324707031300000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Century Gothic'
+    TextSettings.Font.Size = 44.000000000000000000
+    TextSettings.FontColor = claWhite
+    TextSettings.Trimming = Character
+  end
+  object Line3: TLine
+    Align = Scale
+    LineType = Diagonal
+    Position.X = 317.504699707031300000
+    Position.Y = 182.000000000000000000
+    RotationAngle = 225.000000000000000000
+    RotationCenter.X = 0.000000000000000000
+    RotationCenter.Y = 0.000000000000000000
+    Size.Width = 119.437500000000000000
+    Size.Height = 120.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claSlateblue
+    Stroke.Thickness = 5.000000000000000000
+    Stroke.Cap = Round
+    Stroke.Join = Round
+    object FloatAnimation3: TFloatAnimation
+      Duration = 0.750000000000000000
+      OnFinish = FloatAnimation1Finish
+      PropertyName = 'RotationAngle'
+      StartValue = 0.000000000000000000
+      StartFromCurrent = True
+      StopValue = 0.000000000000000000
+    end
+  end
+  object Line1: TLine
+    Align = Scale
+    LineType = Diagonal
+    Position.X = 317.504699707031300000
+    Position.Y = 182.000000000000000000
+    RotationAngle = 225.000000000000000000
+    RotationCenter.X = 0.000000000000000000
+    RotationCenter.Y = 0.000000000000000000
+    Size.Width = 119.437500000000000000
+    Size.Height = 120.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claCrimson
+    Stroke.Thickness = 3.000000000000000000
+    Stroke.Cap = Round
+    Stroke.Join = Round
+    object FloatAnimation1: TFloatAnimation
+      Duration = 0.750000000000000000
+      OnFinish = FloatAnimation1Finish
+      PropertyName = 'RotationAngle'
+      StartValue = 0.000000000000000000
+      StartFromCurrent = True
+      StopValue = 0.000000000000000000
+    end
+  end
+  object Circle1: TCircle
+    Align = Center
+    Fill.Color = xFFB40831
+    Size.Width = 15.000000000000000000
+    Size.Height = 15.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Timer1: TTimer
+    Enabled = False
+    OnTimer = Timer1Timer
+    Left = 600
+    Top = 256
+  end
+  object Timer2: TTimer
+    Interval = 1
+    OnTimer = Timer2Timer
+    Left = 560
+    Top = 280
+  end
+  object Label1: TLabel
+    Align = Scale
+    StyledSettings = [Size]
+    Position.X = 517.562500000000000000
+    Position.Y = 336.000000000000000000
+    Size.Width = 119.437500000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Century Gothic'
+    TextSettings.Font.Style = [fsItalic]
+    TextSettings.FontColor = claSlategray
+    Text = 'BelemirFuat'
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'FMX'
+    Left = 600
+    Top = 304
+  end
+end
