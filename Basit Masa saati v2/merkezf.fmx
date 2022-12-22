@@ -1,0 +1,60 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 500
+  ClientWidth = 705
+  Fill.Color = claBlack
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Text1: TText
+    Align = Scale
+    Size.Width = 705.000000000000000000
+    Size.Height = 250.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'S'#305'f'#305'r'
+    TextSettings.Font.Family = 'Arial'
+    TextSettings.Font.Size = 144.000000000000000000
+    TextSettings.FontColor = claWhite
+    TextSettings.HorzAlign = Leading
+  end
+  object Text2: TText
+    Align = Scale
+    Position.Y = 247.000000000000000000
+    Size.Width = 705.000000000000000000
+    Size.Height = 250.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'S'#305'f'#305'r'
+    TextSettings.Font.Family = 'Arial'
+    TextSettings.Font.Size = 144.000000000000000000
+    TextSettings.FontColor = claBlue
+    TextSettings.HorzAlign = Trailing
+  end
+  object Timer1: TTimer
+    Interval = 1
+    OnTimer = Timer1Timer
+    Left = 656
+    Top = 88
+  end
+  object Label1: TLabel
+    StyledSettings = [Size]
+    Position.X = 576.000000000000000000
+    Position.Y = 472.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Century Gothic'
+    TextSettings.Font.Style = [fsItalic]
+    TextSettings.FontColor = claSilver
+    Text = 'BelemirFuat'
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'FMX'
+    Left = 336
+    Top = 240
+  end
+end
