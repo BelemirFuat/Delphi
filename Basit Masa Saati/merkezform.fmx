@@ -1,0 +1,696 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  Fill.Color = claBlack
+  Fill.Kind = Solid
+  Quality = HighQuality
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  FullScreen = True
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  object Circle1: TCircle
+    Align = Scale
+    Fill.Color = claBlack
+    Position.X = -32.000000000000000000
+    Size.Width = 480.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claWhite
+    Stroke.Thickness = 3.000000000000000000
+    OnClick = Circle1Click
+    OnPainting = Circle1Painting
+    object Text15: TText
+      Align = Scale
+      Position.X = 137.000000000000000000
+      Position.Y = 32.000000000000000000
+      Size.Width = 75.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 32.000000000000000000
+      TextSettings.FontColor = claGray
+      TextSettings.HorzAlign = Trailing
+      OnClick = Circle1Click
+    end
+    object Text17: TText
+      Align = Scale
+      Position.X = 265.000000000000000000
+      Position.Y = 32.000000000000000000
+      Size.Width = 75.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 32.000000000000000000
+      TextSettings.FontColor = claSlateblue
+      TextSettings.HorzAlign = Leading
+      OnClick = Circle1Click
+    end
+    object Text18: TText
+      Align = Scale
+      Position.X = 130.000000000000000000
+      Position.Y = 96.000000000000000000
+      Size.Width = 75.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 32.000000000000000000
+      TextSettings.FontColor = claGray
+      TextSettings.HorzAlign = Trailing
+      OnClick = Circle1Click
+    end
+    object Text20: TText
+      Align = Scale
+      Position.X = 278.000000000000000000
+      Position.Y = 96.000000000000000000
+      Size.Width = 75.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 32.000000000000000000
+      TextSettings.FontColor = claSlateblue
+      TextSettings.HorzAlign = Leading
+      OnClick = Circle1Click
+    end
+    object Circle4: TCircle
+      Align = Scale
+      Fill.Kind = Gradient
+      Fill.Gradient.Points = <
+        item
+          Color = claBlack
+          Offset = 0.000000000000000000
+        end
+        item
+          Color = xFF060420
+          Offset = 0.987577617168426500
+        end>
+      Fill.Gradient.StartPosition.X = 0.500000000000000000
+      Fill.Gradient.StartPosition.Y = 1.000000000000000000
+      Fill.Gradient.StopPosition.X = 0.499999970197677600
+      Fill.Gradient.StopPosition.Y = 0.000000000000000000
+      Position.X = 255.000000000000000000
+      Position.Y = 391.000000000000000000
+      Size.Width = 82.000000000000000000
+      Size.Height = 66.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFF7A7A7A
+      Stroke.Thickness = 3.000000000000000000
+      OnClick = Circle4Click
+      OnDblClick = Circle4DblClick
+      OnPainting = Circle4Painting
+      object Text13: TText
+        Align = Scale
+        Position.Y = 16.000000000000000000
+        Size.Width = 82.496971130371090000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Century Gothic'
+        TextSettings.Font.Size = 36.000000000000000000
+        TextSettings.FontColor = claWhite
+        OnClick = Circle4Click
+        OnDblClick = Circle4DblClick
+      end
+      object Line4: TLine
+        Align = Center
+        LineType = Bottom
+        RotationAngle = 270.000000000000000000
+        RotationCenter.X = 0.000000000000000000
+        RotationCenter.Y = 0.000000000000000000
+        Size.Width = 25.000000000000000000
+        Size.Height = 1.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = xFFFF0F0F
+        object FloatAnimation5: TFloatAnimation
+          Duration = 0.699999988079071000
+          OnFinish = FloatAnimation5Finish
+          PropertyName = 'RotationAngle'
+          StartValue = 0.000000000000000000
+          StartFromCurrent = True
+          StopValue = 0.000000000000000000
+        end
+      end
+    end
+    object Circle3: TCircle
+      Align = Scale
+      Fill.Kind = Gradient
+      Fill.Gradient.Points = <
+        item
+          Color = claBlack
+          Offset = 0.000000000000000000
+        end
+        item
+          Color = xFF060420
+          Offset = 0.987577617168426500
+        end>
+      Fill.Gradient.StartPosition.X = 0.500000000000000000
+      Fill.Gradient.StartPosition.Y = 1.000000000000000000
+      Fill.Gradient.StopPosition.X = 0.499999970197677600
+      Fill.Gradient.StopPosition.Y = 0.000000000000000000
+      Position.X = 143.000000000000000000
+      Position.Y = 391.000000000000000000
+      Size.Width = 82.000000000000000000
+      Size.Height = 66.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFF7A7A7A
+      Stroke.Thickness = 3.000000000000000000
+      OnClick = Circle3Click
+      OnPainting = Circle4Painting
+      object Text14: TText
+        Align = Scale
+        Position.Y = 16.000000000000000000
+        Size.Width = 82.496971130371090000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Century Gothic'
+        TextSettings.Font.Size = 36.000000000000000000
+        TextSettings.FontColor = claWhite
+        OnClick = Circle3Click
+      end
+      object Line5: TLine
+        Align = Center
+        LineType = Bottom
+        RotationAngle = 270.000000000000000000
+        RotationCenter.X = 0.000000000000000000
+        RotationCenter.Y = 0.000000000000000000
+        Size.Width = 25.000000000000000000
+        Size.Height = 1.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = xFFFF52BD
+        object FloatAnimation6: TFloatAnimation
+          Duration = 1.000000000000000000
+          Inverse = True
+          OnFinish = FloatAnimation5Finish
+          PropertyName = 'RotationAngle'
+          StartValue = -90.000000000000000000
+          StopValue = 270.000000000000000000
+        end
+      end
+    end
+    object Text1: TText
+      Align = Scale
+      Position.X = 96.000000000000000000
+      Position.Y = 248.000000000000000000
+      Size.Width = 137.000015258789100000
+      Size.Height = 137.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 130.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Trailing
+      OnClick = Circle1Click
+    end
+    object Text10: TText
+      Align = Scale
+      Position.X = 74.000000000000000000
+      Position.Y = 64.000000000000000000
+      Size.Width = 120.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 32.000000000000000000
+      TextSettings.FontColor = claGray
+      TextSettings.HorzAlign = Trailing
+      OnClick = Circle1Click
+    end
+    object Text11: TText
+      Align = Scale
+      Position.X = 180.000000000000000000
+      Position.Y = 64.000000000000000000
+      Size.Width = 120.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 48.000000000000000000
+      TextSettings.FontColor = claWhite
+      OnClick = Circle1Click
+    end
+    object Text12: TText
+      Align = Scale
+      Position.X = 286.000000000000000000
+      Position.Y = 64.000000000000000000
+      Size.Width = 120.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 32.000000000000000000
+      TextSettings.FontColor = claSlateblue
+      TextSettings.HorzAlign = Leading
+      OnClick = Circle1Click
+    end
+    object Text2: TText
+      Align = Scale
+      Position.X = 247.000000000000000000
+      Position.Y = 248.000000000000000000
+      Size.Width = 138.000030517578100000
+      Size.Height = 137.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 130.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Leading
+      OnClick = Circle1Click
+    end
+    object Text3: TText
+      Align = Scale
+      Opacity = 0.000000000000000000
+      Position.X = 232.000000000000000000
+      Position.Y = 248.000000000000000000
+      Size.Width = 17.000000000000000000
+      Size.Height = 137.000000000000000000
+      Size.PlatformDefault = False
+      Text = '.'
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 130.000000000000000000
+      TextSettings.FontColor = claWhite
+      OnClick = Circle1Click
+      object FloatAnimation4: TFloatAnimation
+        AutoReverse = True
+        Duration = 0.500000000000000000
+        Loop = True
+        PropertyName = 'Opacity'
+        StartValue = 0.000000000000000000
+        StopValue = 1.000000000000000000
+      end
+    end
+    object Text4: TText
+      Align = Scale
+      Position.X = 304.000000000000000000
+      Position.Y = 216.000000000000000000
+      Size.Width = 95.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 48.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Trailing
+      Visible = False
+      OnClick = Circle1Click
+    end
+    object Text5: TText
+      Align = Scale
+      Position.X = 160.000000000000000000
+      Position.Y = 216.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 48.000000000000000000
+      TextSettings.FontColor = claWhite
+      Visible = False
+      OnClick = Circle1Click
+    end
+    object Text6: TText
+      Align = Scale
+      Position.X = 72.000000000000000000
+      Position.Y = 216.000000000000000000
+      Size.Width = 96.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 48.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Leading
+      Visible = False
+      OnClick = Circle1Click
+    end
+    object Text7: TText
+      Align = Scale
+      Position.X = 30.000000000000000000
+      Position.Y = 128.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 32.000000000000000000
+      TextSettings.FontColor = claGray
+      TextSettings.HorzAlign = Trailing
+      OnClick = Circle1Click
+    end
+    object Text8: TText
+      Align = Scale
+      Position.X = 168.000000000000000000
+      Position.Y = 128.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 48.000000000000000000
+      TextSettings.FontColor = claWhite
+      OnClick = Circle1Click
+    end
+    object Text9: TText
+      Align = Scale
+      Position.X = 305.000000000000000000
+      Position.Y = 128.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 32.000000000000000000
+      TextSettings.FontColor = claSlateblue
+      TextSettings.HorzAlign = Leading
+      OnClick = Circle1Click
+    end
+    object Line3: TLine
+      Align = Scale
+      LineType = Bottom
+      Position.X = 240.000000000000000000
+      Position.Y = 240.000000000000000000
+      RotationAngle = 270.000000000000000000
+      RotationCenter.X = 0.000000000000000000
+      RotationCenter.Y = 0.000000000000000000
+      Size.Width = 175.000030517578100000
+      Size.Height = 1.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claWhite
+      Stroke.Thickness = 5.000000000000000000
+      Stroke.Cap = Round
+      object FloatAnimation3: TFloatAnimation
+        Duration = 1.000000000000000000
+        OnFinish = FloatAnimation3Finish
+        PropertyName = 'RotationAngle'
+        StartValue = 0.000000000000000000
+        StartFromCurrent = True
+        StopValue = 0.000000000000000000
+      end
+    end
+    object Line2: TLine
+      Align = Scale
+      LineType = Bottom
+      Position.X = 240.000000000000000000
+      Position.Y = 240.000000000000000000
+      RotationAngle = 270.000000000000000000
+      RotationCenter.X = 0.000000000000000000
+      RotationCenter.Y = 0.000000000000000000
+      Size.Width = 210.000000000000000000
+      Size.Height = 1.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFF0636CA
+      Stroke.Thickness = 4.000000000000000000
+      Stroke.Cap = Round
+      object FloatAnimation2: TFloatAnimation
+        Duration = 1.000000000000000000
+        OnFinish = FloatAnimation2Finish
+        PropertyName = 'RotationAngle'
+        StartValue = 0.000000000000000000
+        StartFromCurrent = True
+        StopValue = 0.000000000000000000
+      end
+    end
+    object Line1: TLine
+      Align = Scale
+      LineType = Bottom
+      Position.X = 240.000000000000000000
+      Position.Y = 240.000000000000000000
+      RotationAngle = 270.000000000000000000
+      RotationCenter.X = 0.000000000000000000
+      RotationCenter.Y = 0.000000000000000000
+      Size.Width = 220.000030517578100000
+      Size.Height = 1.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFFFE0F0F
+      Stroke.Thickness = 2.000000000000000000
+      Stroke.Cap = Round
+      object FloatAnimation1: TFloatAnimation
+        Duration = 0.699999988079071000
+        OnFinish = FloatAnimation1Finish
+        PropertyName = 'RotationAngle'
+        StartValue = 0.000000000000000000
+        StartFromCurrent = True
+        StopValue = 0.000000000000000000
+      end
+    end
+    object Circle2: TCircle
+      Align = Center
+      Fill.Kind = Gradient
+      Fill.Gradient.Points = <
+        item
+          Color = claBlack
+          Offset = 0.000000000000000000
+        end
+        item
+          Color = claRed
+          Offset = 1.000000000000000000
+        end>
+      Fill.Gradient.StartPosition.X = 0.500000000000000000
+      Fill.Gradient.StartPosition.Y = 1.000000000000000000
+      Fill.Gradient.StopPosition.X = 0.499999970197677600
+      Fill.Gradient.StopPosition.Y = 0.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claWhite
+      OnClick = Circle1Click
+    end
+    object Text16: TText
+      Align = Scale
+      Position.X = 201.000000000000000000
+      Position.Y = 32.000000000000000000
+      Size.Width = 75.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 48.000000000000000000
+      TextSettings.FontColor = claWhite
+      OnClick = Circle1Click
+    end
+    object Text19: TText
+      Align = Scale
+      Position.X = 204.000000000000000000
+      Position.Y = 96.000000000000000000
+      Size.Width = 75.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 48.000000000000000000
+      TextSettings.FontColor = claWhite
+      OnClick = Circle1Click
+    end
+    object BannerAd2: TBannerAd
+      Position.X = 406.000000000000000000
+      Position.Y = 6.000000000000000000
+    end
+  end
+  object Timer1: TTimer
+    Enabled = False
+    OnTimer = Timer1Timer
+    Left = 504
+    Top = 416
+  end
+  object Timer2: TTimer
+    Interval = 1
+    OnTimer = Timer2Timer
+    Left = 472
+    Top = 416
+  end
+  object Timer3: TTimer
+    Enabled = False
+    OnTimer = Timer3Timer
+    Left = 536
+    Top = 416
+  end
+  object Rectangle1: TRectangle
+    Align = Scale
+    Fill.Kind = Gradient
+    Fill.Gradient.Points = <
+      item
+        Color = xFFFC29FC
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = xFF3C8AF8
+        Offset = 1.000000000000000000
+      end>
+    Fill.Gradient.StartPosition.Y = 0.919549763202667200
+    Fill.Gradient.StopPosition.X = 1.000000000000000000
+    Fill.Gradient.StopPosition.Y = 0.080450206995010380
+    Position.X = 640.000000000000000000
+    Position.Y = 64.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 241.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claWhite
+    Stroke.Thickness = 3.000000000000000000
+    object Edit1: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Scale
+      TabOrder = 0
+      KeyboardType = NamePhonePad
+      ReadOnly = True
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Font.Size = 22.000000000000000000
+      TextSettings.FontColor = claWhite
+      Position.X = 30.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 60.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'saat'
+      StyledSettings = [Style]
+    end
+    object Edit2: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Scale
+      TabOrder = 1
+      KeyboardType = NamePhonePad
+      ReadOnly = True
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Font.Size = 22.000000000000000000
+      TextSettings.FontColor = claWhite
+      Position.X = 150.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 60.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'dk'
+      StyledSettings = [Style]
+    end
+    object Edit3: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Scale
+      TabOrder = 2
+      KeyboardType = NamePhonePad
+      ReadOnly = True
+      TextSettings.Font.Family = 'Arial'
+      TextSettings.Font.Size = 22.000000000000000000
+      TextSettings.FontColor = claWhite
+      Position.X = 270.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 60.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'sn'
+      StyledSettings = [Style]
+    end
+    object Button2: TButton
+      Align = Scale
+      StyledSettings = [Family, Size, Style]
+      Position.X = 47.000000000000000000
+      Position.Y = 112.000000000000000000
+      Size.Width = 135.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = 'Ba'#351'lat'
+      TextSettings.FontColor = claWhite
+      TintColor = claBlack
+      OnClick = Button2Click
+    end
+    object Button3: TButton
+      Align = Scale
+      Enabled = False
+      StyledSettings = [Family, Size, Style]
+      Position.X = 199.000000000000000000
+      Position.Y = 112.000000000000000000
+      Size.Width = 135.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      Text = 'Durdur'
+      TextSettings.FontColor = claWhite
+      TintColor = claBlack
+      OnClick = Button3Click
+    end
+    object FloatAnimation7: TFloatAnimation
+      Duration = 1.500000000000000000
+      Interpolation = Back
+      OnFinish = FloatAnimation7Finish
+      PropertyName = 'Position.X'
+      StartValue = 0.000000000000000000
+      StartFromCurrent = True
+      StopValue = 0.000000000000000000
+    end
+    object Button4: TButton
+      Align = Scale
+      StyledSettings = [Family, Size, Style]
+      Position.X = 128.000000000000000000
+      Position.Y = 152.000000000000000000
+      Size.Width = 135.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      Text = 'S'#305'f'#305'rla'
+      TextSettings.FontColor = claWhite
+      TintColor = claBlack
+      OnClick = Button4Click
+    end
+  end
+  object zamanlayicitimer: TTimer
+    Enabled = False
+    OnTimer = zamanlayicitimerTimer
+    Left = 504
+    Top = 312
+  end
+  object Timer4: TTimer
+    Enabled = False
+    Interval = 1
+    OnTimer = Timer4Timer
+    Left = 576
+    Top = 320
+  end
+  object Timer5: TTimer
+    Enabled = False
+    Interval = 10000
+    OnTimer = Timer5Timer
+    Left = 552
+    Top = 88
+  end
+  object Timer6: TTimer
+    Enabled = False
+    Interval = 10000
+    OnTimer = Timer6Timer
+    Left = 528
+    Top = 216
+  end
+  object ProgressBar1: TProgressBar
+    Align = Scale
+    Orientation = Horizontal
+    Position.X = 392.000000000000000000
+    Size.Width = 241.000000000000000000
+    Size.Height = 10.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+  end
+  object Text21: TText
+    Position.X = 424.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 177.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Pil Seviyesi:'
+    TextSettings.Font.Family = 'Century Gothic'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.FontColor = claWhite
+    Visible = False
+  end
+  object piltimer: TTimer
+    OnTimer = piltimerTimer
+    Left = 496
+    Top = 56
+  end
+  object BannerAd1: TBannerAd
+    Position.X = 398.000000000000000000
+    Position.Y = 423.000000000000000000
+  end
+  object Label1: TLabel
+    StyledSettings = [Size]
+    Position.X = 512.000000000000000000
+    Position.Y = 448.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Century Gothic'
+    TextSettings.Font.Style = [fsItalic]
+    TextSettings.FontColor = claSilver
+    Text = 'BelemirFuat'
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'FMX'
+    Left = 568
+    Top = 416
+  end
+end
