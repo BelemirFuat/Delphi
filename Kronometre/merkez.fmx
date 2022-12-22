@@ -1,0 +1,128 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Kronometre'
+  ClientHeight = 536
+  ClientWidth = 724
+  Fill.Color = claBlack
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Text1: TText
+    Align = Scale
+    Position.X = 40.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 209.000000000000000000
+    Size.Height = 217.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Century Gothic'
+    TextSettings.Font.Size = 72.000000000000000000
+    TextSettings.FontColor = claWhite
+  end
+  object Text2: TText
+    Align = Scale
+    Position.X = 257.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 209.000000000000000000
+    Size.Height = 217.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Century Gothic'
+    TextSettings.Font.Size = 72.000000000000000000
+    TextSettings.FontColor = claWhite
+  end
+  object Text3: TText
+    Align = Scale
+    Position.X = 474.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 209.000000000000000000
+    Size.Height = 217.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Century Gothic'
+    TextSettings.Font.Size = 72.000000000000000000
+    TextSettings.FontColor = claWhite
+  end
+  object Text4: TText
+    Align = Scale
+    Position.X = 40.000000000000000000
+    Position.Y = 337.000000000000000000
+    RotationAngle = -90.000000000000000000
+    Size.Width = 209.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Saat'
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.FontColor = claWhite
+  end
+  object Text5: TText
+    Align = Scale
+    Position.X = 257.000000000000000000
+    Position.Y = 337.000000000000000000
+    RotationAngle = -90.000000000000000000
+    Size.Width = 209.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Dakika'
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.FontColor = claWhite
+  end
+  object Text6: TText
+    Align = Scale
+    Position.X = 474.000000000000000000
+    Position.Y = 337.000000000000000000
+    RotationAngle = -90.000000000000000000
+    Size.Width = 209.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Saniye'
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.FontColor = claWhite
+  end
+  object SpeedButton1: TSpeedButton
+    Align = Scale
+    Enabled = False
+    StyledSettings = [Family, Style]
+    Position.X = 401.000000000000000000
+    Position.Y = 462.000000000000000000
+    Size.Width = 157.000000000000000000
+    Size.Height = 56.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Dur'
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.FontColor = claWhite
+    OnClick = SpeedButton1Click
+  end
+  object SpeedButton2: TSpeedButton
+    Align = Scale
+    StyledSettings = [Family, Style]
+    Position.X = 162.000000000000000000
+    Position.Y = 462.000000000000000000
+    Size.Width = 157.000000000000000000
+    Size.Height = 56.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Ba'#351'la'
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.FontColor = claWhite
+    OnClick = SpeedButton2Click
+  end
+  object Timer1: TTimer
+    Enabled = False
+    OnTimer = Timer1Timer
+    Left = 65528
+    Top = 520
+  end
+  object Label1: TLabel
+    Align = Scale
+    StyledSettings = [Size]
+    Position.X = 600.000000000000000000
+    Position.Y = 512.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Century Gothic'
+    TextSettings.Font.Style = [fsItalic]
+    TextSettings.FontColor = claSilver
+    Text = 'BelemirFuat'
+  end
+end
